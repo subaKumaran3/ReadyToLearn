@@ -1,6 +1,6 @@
 Create laravel project
 www>
--composer create-project laravel/laravel payable --prefer-dist
+-composer create-project laravel/laravel <name> --prefer-dist
 
 
 install Laravel in the current directory(localhost:8000)
