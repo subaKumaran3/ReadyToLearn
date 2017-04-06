@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=E6KHP7G_4Ao
+
+cd <www path>
+then 
+composer create-project laravel/laravel payable --prefer-dist

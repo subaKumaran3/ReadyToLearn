@@ -1,0 +1,22 @@
+Create laravel project
+www>
+-composer create-project laravel/laravel payable --prefer-dist
+
+
+install Laravel in the current directory(localhost:8000)
+project cmd>
+-php artisan serve
+
+
+
+Define Middleware
+project cmd>
+-php artisan make:middleware AgeMiddleware
+-Register the TerminateMiddleware in app\Http\Kernel.php file.
+eg : 'terminate'=>\App\Http\Middleware\TerminateMiddleware::class,
+
+
+Creating a Controller
+project cmd>
+-php artisan make:controller ABCController
+-app/Http/routes.php file.
